@@ -1,0 +1,82 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+}
+#calculator{
+    width: 40%;
+    text-align: center;
+    border:1px #4b4802 solid;
+    border-radius: 5px;
+    margin: 2% 30% 2% 30%;
+    padding: 2%;
+}
+button{
+    margin: 2%;
+    width: 3rem;
+    height: 1.5rem;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 80%;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.inputs{
+    background-color: #400101cb;
+}
+.inputs:active{
+    background-color: #fff;
+    color: #400101cb;
+}
+#del{
+    background-color: #ff0000;
+    color: #fff;
+}
+#del:active{
+    background-color: #fff;
+    color: #ff0000;
+}
+#result{
+    background-color: #053a05;
+}
+#result:active{
+    background-color: #fff;
+    color: #053a05;
+}
+#userinput{
+    width: 90%;
+    height: 1.4rem;
+    padding: 2%;
+    margin: 2%;
+    width: 88%;
+    outline: 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: right;
+    color: #ff5e00;
+}
+#userinput:focus{
+    border: 1px solid blue;
+}
+#userinput::placeholder{
+ text-align: end;
+}
+.operations{
+    background-color: #0080ff;
+}
+.operations:active{
+    background-color: #fff;
+    color: #0080ff;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
