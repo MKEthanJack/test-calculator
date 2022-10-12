@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/calstyle.css">
+</head>
+<body>
+    <div>
+        <section id="calculator">
+            <div>
+                <marquee behavior="alternate" direction="left" scrollamount="1">Calculator</marquee>
+            </div>
+            <div>
+                <form id="new">
+                    <input type="text" id="userinput" placeholder="0" autofocus>
+                </form>
+            </div>
+            <div class="buttons">
+                <button class="inputs" type="submit" id="no1" onclick="num1()">1</button>
+                <button class="inputs" type="submit" id="no2" onclick="num2()">2</button>
+                <button class="inputs" type="submit" id="no3" onclick="num3()">3</button>
+                <button class="operations" type="submit" id="plus" onclick="plus()">+</button>
+            </div>
+            <div class="buttons">
+                <button class="inputs" type="submit" id="no4" onclick="num4()">4</button>
+                <button class="inputs" type="submit" id="no5" onclick="num5()">5</button>
+                <button class="inputs" type="submit" id="no6" onclick="num6()">6</button>
+                <button class="operations" type="submit" id="minus" onclick="minus()">-</button>
+            </div>
+            <div class="buttons">
+                <button class="inputs" type="submit" id="no7" onclick="num7()">7</button>
+                <button class="inputs" type="submit" id="no8" onclick="num8()">8</button>
+                <button class="inputs" type="submit" id="no9" onclick="num9()">9</button>
+                <button class="operations" type="submit" id="mul" onclick="mul()">*</button>
+            </div>
+            <div class="buttons">
+                <button type="submit" id="del">del</button>
+                <button class="inputs" type="submit" id="no0" onclick="num0()">0</button>
+                <button class="operations" type="submit" id="mod" onclick="mod()">%</button>
+                <button class="operations" type="submit" id="divi" onclick="divi()">/</button>
+                
+            </div>
+            <div>
+                <button type="submit" id="result" onclick="result()">=</button>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="/js/jquery-3.6.1.min.js"></script>
+<script src="/js/cal.js"></script>
+</html>
