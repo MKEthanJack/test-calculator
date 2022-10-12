@@ -14,14 +14,14 @@ body{
 }
 button{
     margin: 2%;
-    width: 3rem;
-    height: 1.5rem;
+    width: 8rem;
+    height: 3.5rem;
     text-align: center;
     border: 0;
     padding: 0;
     border-radius: 5px;
     color: #fff;
-    font-size: 80%;
+    font-size: 180%;
     font-family: monospace;
     font-weight: bold;
     cursor: pointer;
@@ -49,22 +49,25 @@ button{
     color: #053a05;
 }
 #userinput{
-    width: 90%;
-    height: 1.4rem;
+    width: 85%;
+    height: 2.4rem;
     padding: 2%;
     margin: 2%;
-    width: 88%;
     outline: 0;
     border: 1px solid #000000;
     border-radius: 5px;
     text-align: right;
     color: #ff5e00;
+    font-size:200%;
 }
 #userinput:focus{
     border: 1px solid blue;
 }
 #userinput::placeholder{
  text-align: end;
+}
+marquee{
+    font-size:2rem;
 }
 .operations{
     background-color: #0080ff;
